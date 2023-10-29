@@ -32,6 +32,7 @@ const posts = [
 const postsContainerDiv = document.getElementById("posts-container");
 
 posts.forEach(e => {
+    console.log("element: ", e);
     const postDiv = document.createElement("div");
     postDiv.innerHTML += `
         <div class="bio">
