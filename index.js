@@ -3,8 +3,8 @@ const posts = [
         name: "Vincent van Gogh",
         username: "vincey1853",
         location: "Zundert, Netherlands",
-        avatar: "images/avatar-vangogh.jpg",
-        post: "images/post-vangogh.jpg",
+        avatar: "assets/avatar-vangogh.jpg",
+        post: "assets/post-vangogh.jpg",
         comment: "just took a few mushrooms lol",
         likes: 21
     },
@@ -12,8 +12,8 @@ const posts = [
         name: "Gustave Courbet",
         username: "gus1819",
         location: "Ornans, France",
-        avatar: "images/avatar-courbet.jpg",
-        post: "images/post-courbet.jpg",
+        avatar: "assets/avatar-courbet.jpg",
+        post: "assets/post-courbet.jpg",
         comment: "i'm feelin a bit stressed tbh",
         likes: 4
     },
@@ -21,8 +21,8 @@ const posts = [
         name: "Joseph Ducreux",
         username: "jd1735",
         location: "Paris, France",
-        avatar: "images/avatar-ducreux.jpg",
-        post: "images/post-ducreux.jpg",
+        avatar: "assets/avatar-ducreux.jpg",
+        post: "assets/post-ducreux.jpg",
         comment: "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
         likes: 152
     }
@@ -45,9 +45,9 @@ posts.forEach(e => {
         <img style="width: 100%;" src="${e?.post}">
             
         <div class="all-icons">
-            <img src="images/icon-heart.png">
-            <img src="images/icon-comment.png">
-            <img src="images/icon-dm.png">
+            <img src="assets/icon-heart.png">
+            <img src="assets/icon-comment.png">
+            <img src="assets/icon-dm.png">
                 
             <p class="likes">${e?.likes} likes</p>
                 
