@@ -35,14 +35,14 @@ posts.forEach(e => {
     const postDiv = document.createElement("div");
     postDiv.innerHTML += `
         <div class="bio">
-            <img class="user-icon" src=${e?.avatar}>
+            <img class="user-icon" src="${e?.avatar}">
             <div class="name-location">
                 <p class="name">${e?.name}</p>
                 <p class="location">${e?.location}</p>    
             </div>        
         </div>
             
-        <img style="width: 100%;" src=${e?.post}>
+        <img style="width: 100%;" src="${e?.post}">
             
         <div class="all-icons">
             <img src="images/icon-heart.png">
