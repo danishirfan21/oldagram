@@ -12,8 +12,8 @@ const posts = [
         name: "Gustave Courbet",
         username: "gus1819",
         location: "Ornans, France",
-        avatar: "public/avatar-courbet.jpg",
-        post: "public/post-courbet.jpg",
+        avatar: "avatar-courbet.jpg",
+        post: "post-courbet.jpg",
         comment: "i'm feelin a bit stressed tbh",
         likes: 4
     },
@@ -21,8 +21,8 @@ const posts = [
         name: "Joseph Ducreux",
         username: "jd1735",
         location: "Paris, France",
-        avatar: "public/avatar-ducreux.jpg",
-        post: "public/post-ducreux.jpg",
+        avatar: "avatar-ducreux.jpg",
+        post: "post-ducreux.jpg",
         comment: "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
         likes: 152
     }
@@ -46,9 +46,9 @@ posts.forEach(e => {
         <img style="width: 100%;" src="${e?.post}">
             
         <div class="all-icons">
-            <img src="public/icon-heart.png">
-            <img src="public/icon-comment.png">
-            <img src="public/icon-dm.png">
+            <img src="icon-heart.png">
+            <img src="icon-comment.png">
+            <img src="icon-dm.png">
                 
             <p class="likes">${e?.likes} likes</p>
                 
