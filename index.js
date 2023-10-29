@@ -3,8 +3,8 @@ const posts = [
         name: "Vincent van Gogh",
         username: "vincey1853",
         location: "Zundert, Netherlands",
-        avatar: "public/avatar-vangogh.jpg",
-        post: "public/post-vangogh.jpg",
+        avatar: "avatar-vangogh.jpg",
+        post: "post-vangogh.jpg",
         comment: "just took a few mushrooms lol",
         likes: 21
     },
