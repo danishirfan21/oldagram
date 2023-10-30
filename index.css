@@ -4,9 +4,9 @@ html, body {
     font-family: 'Source Sans 3', serif;
 }
 
-.container {
+/* .container {
     max-width: 320px;
-}
+} */
 
 header {
     display: flex;
