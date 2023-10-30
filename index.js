@@ -32,7 +32,6 @@ const posts = [
 const postsContainerDiv = document.getElementById("posts-container");
 
 posts.forEach(e => {
-    console.log("element: ", e);
     const postDiv = document.createElement("div");
     postDiv.innerHTML += `
         <div class="bio">
@@ -46,7 +45,7 @@ posts.forEach(e => {
         <img style="width: 100%;" src="${e?.post}">
             
         <div class="all-icons">
-            <img src="icon-heart.png">
+            <i class="fa-regular fa-heart" data-like="false"></i>
             <img src="icon-comment.png">
             <img src="icon-dm.png">
                 
@@ -56,5 +55,22 @@ posts.forEach(e => {
         </div>
     `
     postsContainerDiv.appendChild(postDiv);
+
+    const likeButton = postDiv.querySelector(".fa-heart");
+
+    likeButton.addEventListener("click", function() {
+        if (likeButton.getAttribute("data-like") === "false") {
+            likeButton.classList.remove("fa-regular");
+            likeButton.classList.add("fa-solid");
+            likeButton.setAttribute("data-like", "true");
+            likeButton.style.color = "#dd1d30";
+        } else {
+            likeButton.classList.remove("fa-solid");
+            likeButton.classList.add("fa-regular");
+            likeButton.setAttribute("data-like", "false");
+            likeButton.style.color = "";
+        }
+    });
     
 })
+
