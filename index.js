@@ -45,9 +45,11 @@ posts.forEach(e => {
         <img style="width: 100%;" src="${e?.post}">
             
         <div class="all-icons">
-            <i class="fa-regular fa-heart fontawesome" data-like="false"></i>
-            <img src="icon-comment.png">
-            <img src="icon-dm.png">
+            <div class="icons">
+                <i class="fa-regular fa-heart fontawesome" data-like="false"></i>
+                <img src="icon-comment.png">
+                <img src="icon-dm.png">
+            </div>
                 
             <p class="likes">${e?.likes} likes</p>
                 

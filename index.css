@@ -27,9 +27,14 @@ header {
     padding: 10px;
 }
 
+.icons {
+    display: flex;
+}
+
 .all-icons img {
     height: 25px;
     margin-right: 5px;
+    
 }
 
 .fontawesome {
