@@ -32,6 +32,11 @@ header {
     margin-right: 5px;
 }
 
+.fontawesome {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
 .bio {
     display: flex;
     align-items: center;
